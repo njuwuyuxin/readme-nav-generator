@@ -1,4 +1,4 @@
 interface:
   display_name: "Readme Nav Generator"
   short_description: "Host-agent recursive README navigation writer"
-  default_prompt: "Use $readme-nav-generator to recursively analyze the target directory I specify and write one README.md per directory for AI navigation."
+  default_prompt: "Use $readme-nav-generator to recursively analyze the target directory I specify and write Chinese README.md navigation files per directory."

@@ -1,6 +1,6 @@
 ---
 name: readme-nav-generator
-description: Generate layered README navigation files for a codebase by guiding the host agent to recursively inspect code and write one README.md per directory, including directory purpose, file summaries, and child-directory navigation. Use when users request AI-friendly project maps without external API setup, when reducing retrieval scope/token usage for large repositories, or when users want to analyze only a manually specified subdirectory.
+description: Generate layered README navigation files for a codebase by guiding the host agent to recursively inspect code and write one README.md per directory, including directory purpose, file summaries, and child-directory navigation. Use when users request AI-friendly project maps without external API setup, when reducing retrieval scope/token usage for large repositories, when users want to analyze only a manually specified subdirectory, or when users need Chinese navigation docs.
 ---
 
 # Readme Nav Generator
@@ -71,3 +71,8 @@ Use this structure for each generated `README.md`:
 - Keep each file summary to one short line unless complexity requires two.
 - Keep directory purpose short and specific.
 - Preserve existing human-written details when compatible with current code.
+
+## Language rule
+
+- Output navigation README content in Chinese by default.
+- Keep code identifiers, filenames, paths, API names, and symbols in their original form.
